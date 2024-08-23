@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="392.0" prefWidth="537.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mmsystem.HelloController">
+   <children>
+      <TextField fx:id="customerTxt" layoutX="266.0" layoutY="84.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField fx:id="contTxt" layoutX="266.0" layoutY="115.0" prefHeight="25.0" prefWidth="263.0" AnchorPane.leftAnchor="266.0" AnchorPane.rightAnchor="71.0" />
+      <TextField fx:id="cashTxt" layoutX="266.0" layoutY="148.0" prefHeight="25.0" prefWidth="263.0" AnchorPane.leftAnchor="266.0" AnchorPane.rightAnchor="71.0" />
+      <TextField fx:id="TserviceTxt" layoutX="266.0" layoutY="181.0" prefHeight="25.0" prefWidth="263.0" AnchorPane.leftAnchor="266.0" AnchorPane.rightAnchor="71.0" />
+      <TextField fx:id="TtypeTxt" layoutX="266.0" layoutY="218.0" prefHeight="25.0" prefWidth="263.0" AnchorPane.leftAnchor="266.0" AnchorPane.rightAnchor="71.0" />
+      <Button fx:id="Save" layoutX="88.0" layoutY="319.0" mnemonicParsing="false" onAction="#saveButtonOnClick" prefHeight="25.0" prefWidth="76.0" style="-fx-background-color: blue;" text="SAVE" textFill="#efefef">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="close" layoutX="438.0" layoutY="317.0" mnemonicParsing="false" onAction="#closeButtonOnClick" prefHeight="25.0" prefWidth="76.0" style="-fx-background-color: blue;" text="CLOSE" textFill="#efefef">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Text layoutX="126.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CustomerName" wrappingWidth="164.13671875">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="128.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact" wrappingWidth="108.13671875">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="128.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TrasactionService" wrappingWidth="117.13671875">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="129.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount" wrappingWidth="85.13671875">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="128.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TransactionType" wrappingWidth="129.13671875">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="187.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TRANSACTION DETAILS" wrappingWidth="313.13671875">
+         <font>
+            <Font name="Verdana" size="24.0" />
+         </font>
+      </Text>
+      <Label fx:id="saveMsgLabel" layoutX="107.0" layoutY="270.0" prefHeight="17.0" prefWidth="323.0" text="Label" />
+   </children>
+</AnchorPane>
